@@ -61,6 +61,9 @@ const setProviders = (project: Models.Project): Provider[] => {
                 case 'dailymotion':
                     docs = 'https://developers.dailymotion.com/api/';
                     break;
+                case 'digitalocean':
+                    docs = 'https://docs.digitalocean.com/reference/api/oauth-api';
+                    break;
                 case 'discord':
                     docs = 'https://discordapp.com/developers/docs/topics/oauth2';
                     break;
